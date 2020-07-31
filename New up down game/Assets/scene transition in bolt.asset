@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: scene transition in bolt
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":4.480251,"y":89.33256},"zoom":0.9,"elements":[{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.Int32"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneBuildIndex":{"$content":0,"$type":"System.Int32"}},"position":{"x":161.0,"y":-61.0},"guid":"a73e438e-324f-4862-9cbd-beb7ab236b77","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-263.0,"y":-60.0},"guid":"3d203471-86a1-44d9-b3d5-b8b82508912a","$version":"A","$type":"Bolt.OnTriggerEnter2D","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"SceneToLoad","$type":"System.String"},"object":null},"position":{"x":-32.0,"y":72.0},"guid":"abff41a2-118e-463f-a81e-38295f6210cb","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"kind":"Application","defaultValues":{"name":{"$content":"coordinates","$type":"System.String"}},"position":{"x":-31.0,"y":-66.0},"guid":"1edbf024-fd93-4809-9daf-1772f86aeddc","$version":"A","$type":"Bolt.SetVariable","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Position","$type":"System.String"},"object":null},"position":{"x":-199.0,"y":66.0},"guid":"4eb0620f-99cd-4e96-ac1b-8abb5ae632da","$version":"A","$type":"Bolt.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"c9569d54-01bb-494b-89c2-1a7f9ccb4f72","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"assigned","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"b86ed37e-62b9-415b-834c-ae510a2b6ac5","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"%sceneBuildIndex","guid":"70210fbe-6234-4346-a8f3-4bb3390264f6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"665107a4-67ef-48f8-b171-e2fb6f12b6e5","$type":"Bolt.ValueConnection"},{"position":{"xMin":-296.9998,"yMin":-153.3999,"xMax":423.0004,"yMax":305.6002},"label":"Scene
+      loading test","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"e4ec5272-889c-48d6-88ad-0269e8733415","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
