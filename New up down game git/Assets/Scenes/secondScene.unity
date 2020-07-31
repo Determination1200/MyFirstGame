@@ -141,12 +141,12 @@ PrefabInstance:
     - target: {fileID: 7996194632596724995, guid: 1c96969d1b9e2d54eaa99c5a4765dc95,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.24
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7996194632596724995, guid: 1c96969d1b9e2d54eaa99c5a4765dc95,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: 2.59
       objectReference: {fileID: 0}
     - target: {fileID: 7996194632596724995, guid: 1c96969d1b9e2d54eaa99c5a4765dc95,
         type: 3}
@@ -1667,12 +1667,12 @@ PrefabInstance:
     - target: {fileID: 8907492381761401962, guid: a2bc7f9dc46379d47ba0a3493b834cc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.24
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8907492381761401962, guid: a2bc7f9dc46379d47ba0a3493b834cc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: 2.59
       objectReference: {fileID: 0}
     - target: {fileID: 8907492381761401962, guid: a2bc7f9dc46379d47ba0a3493b834cc2,
         type: 3}
@@ -14792,7 +14792,7 @@ PrefabInstance:
     - target: {fileID: 8060496440495901912, guid: 9c608bbc6503b7f45b9f4141e580be46,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"SceneToLoad","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"Position","value":{"x":-7.0,"y":-2.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"SceneToLoad","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"Position","value":{"x":2.0,"y":-4.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8060496440495901912, guid: 9c608bbc6503b7f45b9f4141e580be46,
         type: 3}
@@ -14857,7 +14857,7 @@ PrefabInstance:
     - target: {fileID: 8060496440495901917, guid: 9c608bbc6503b7f45b9f4141e580be46,
         type: 3}
       propertyPath: m_Name
-      value: ToSceneCastel
+      value: ToSceneCastle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c608bbc6503b7f45b9f4141e580be46, type: 3}
